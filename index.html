@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Catégorie d'Âge</title>
+  </head>
+   <style>
+    h1{
+        color: aliceblue;
+    }
+    .mane{
+        display: flex;
+        justify-content: center;
+        align-items: center;         
+    }
+    .ma{
+        background: green;
+       padding: 20px 30px;
+    }
+    #categorie{
+        color:lightgoldenrodyellow;
+    }
+   </style>
+  <body>
+    <div class="mane" >
+      <div class="ma">
+        <h1>Entrez votre âge</h1>
+        <input
+          type="number"
+          id="ageInput"
+          placeholder="Votre âge"
+        />
+        <button onclick="afficherCategorie()">Soumettre</button>
+        <p id="categorie"></p>
+      </div>
+    </div>
+    <script src="scripe.js"></script>
+  </body>
+</html>
